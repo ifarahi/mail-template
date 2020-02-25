@@ -107,8 +107,13 @@ a:hover {
     border-radius: 30px;
     opacity: 1;
 }
+
 .form-element::placeholder {
     color: #BE820F;
+}
+
+.form-wrapper {
+    margin-top: 60px;
 }
 
 .elem-1 {
@@ -176,10 +181,11 @@ a:hover {
     letter-spacing: 0;
     color: #0A1F44;
     opacity: 1;
+    margin-left: 10px;
 }
 
 .form-element-check-origin {
-    opacity: 0;
+    opacity: 1;
 }
 
 .form-element-check-span {
@@ -188,4 +194,78 @@ a:hover {
     background: #BFBFBF 0% 0% no-repeat padding-box;
     border-radius: 5px;
     opacity: 1;
+}
+
+/* Reminder part */
+.reminder {
+    margin-top: 35px;
+    position: relative;
+}
+
+.reminder b {
+    font-size: 20px;
+    font-family: Avenir;
+    letter-spacing: 0;
+    color: #D32323;
+    opacity: 1;
+    position: absolute;
+    top: 0;
+    left: 50px;
+}
+
+/* footer part */
+.footer {
+    text-align: center;
+    padding-top: 12%;
+    font-size: 13px;
+    font-family: Avenir;
+    letter-spacing: 0;
+    color: #0A1F44;
+}
+
+/* handling mobile and tablet screens */
+@media screen and (max-width: 574px) {
+    .body-elements {
+        margin-left: 7%;
+    }
+    .bg {
+        /* The image used */
+        background-image: url("./img/background-opacity.png");
+    
+        height: 1240px;
+        max-width: 1080px;
+
+        /* Center and scale the image nicely */
+        background-position: right;
+        background-repeat: no-repeat;
+        background-size: 76% 95%;
+    }
+    .cp-logo img {
+        height: 42px;
+        width: 120px;
+    }
+    .head {
+        position: relative;
+    }
+    .left-logo {
+        position: absolute;
+    }
+    .gatesight-logo {
+        position: absolute;
+        right: 15px;
+    }
+    .gatesight-logo-2 .para-1, .para-2, .gatesight-lock{
+        margin-top: 30px;
+        margin-right: 15px;
+    }
+    .right-logo {
+        height: 90px;
+    }
+    .elem-2 {
+        font-size: 20px;
+    }
+    .reminder b {
+        font-size: 18px;
+    }
+
 }

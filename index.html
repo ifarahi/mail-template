@@ -11,23 +11,25 @@
 <body>
     <div class="container head">
         <div class="row">
-            <div class="col-lg-8 col-md-6 col-sm-5">
+            <div class="col-lg-8 col-md-6 col-sm-5 right-logo">
                 <div class="cp-logo">
                     <img src="./img/cp-logo.png" alt="">
                 </div>
             </div>
             <div class="col-lg-4 col-md-6 col-sm-7 left-logo">
                     <img class="gatesight-logo" src="./img/gatesight.png" alt="">
-                    <p class="para-1">Secured authorization service<br /> Provided by <b>GateSight</b></p>
-                    <img class="gatesight-lock" src="./img/lock.png" alt="" height="33.47px" width="24.73px">
-                    <p class="para-2"><a href="www.gatesight.com">www.gatesight.com</a></p>
+                    <span class="gatesight-logo-2">
+                        <p class="para-1">Secured authorization service<br /> Provided by <b>GateSight</b></p>
+                        <img class="gatesight-lock" src="./img/lock.png" alt="" height="33.47px" width="24.73px">
+                        <p class="para-2"><a href="www.gatesight.com">www.gatesight.com</a></p>
+                    </span>
             </div>
         </div>
     </div>
     <div class="container bg">
         <div class="body-elements">
             <p class="elem-1">Bienvenue,</p>
-            <p class="elem-2">S.benhamou@caronaesystems.com</p>
+            <p class="elem-2"><b>S.benhamou@caronaesystems.com</b></p>
             <p class="elem-3">
                 Vous avez été invité par <br> 
                 <b>Amine Kandil email</b> <br>
@@ -41,7 +43,7 @@
                     informations suivantes :
                 </b>
             </p>
-            <form>
+            <form class="form-wrapper">
                 <div class="form-group">
                     <input type="email" placeholder="Numéro de pièce d’identité" class="form-control form-element" id="exampleInputEmail1" aria-describedby="emailHelp">
                 </div>
@@ -55,22 +57,26 @@
                     <input type="email" placeholder="plaque d'immatriculation (facultatif)" class="form-control form-element" id="exampleInputEmail1" aria-describedby="emailHelp">
                 </div>
                 <div class="form-group form-check">
-                    <label for="checkbox-label">
-                        
-                    </label>
+                    <!-- <span class="form-element-check-span"></span> -->
                     <input type="checkbox" class="form-element-check-origin">
-                    <span class="form-element-check-span"></span>
-                    <label class="form-check-label" for="exampleCheck1"><p class="check-box-text">
+                    <label class="form-check-label" for="exampleCheck1">
+                    <p class="check-box-text">
                         J’accepte de partager mes informations <br> 
                         personnelles avec NPONE Datacenters
-                    </p></label>
+                    </p>
+                </label>
                 </div>
                 <button type="submit" class="btn btn-sub"><p class="btn-sub-value">valider</p></button>
             </form>
-            <div class="reminder">
-                <img src="./img/passport.png" alt="" class="passport-img" width="37.47px" height="67px">
-                <p>N’oubliez pas de vous munir de votre pièce <br> d’identité le jour de votre visite.</p>
-            </div>
+        </div>
+        <div class="reminder">
+            <img src="./img/passport.png" alt="" class="passport-img" width="37.47px" height="50px">
+            <b>N’oubliez pas de vous munir de votre pièce <br> d’identité le jour de votre visite.</b>
+        </div>
+        <div class="footer">
+            <p>
+                    Ce message a été envoyé dans le cadre d’une discussion entre <b>Amine Kandil</b>  et le destinataire dont le nom est indiqué ci-dessus. Si vous recevez ce message par erreur, nous vous serions très reconnaissants de nous informer que le message vous a été envoyé. Dans ce cas, nous vous demandons également de supprimer ce message de votre boîte aux lettres et de ne pas le transmettre, en tout ou en partie, à quelqu’un d’autre. Merci pour votre coopération et votre compréhension.
+            </p>
         </div>
     </div>
 </body>
